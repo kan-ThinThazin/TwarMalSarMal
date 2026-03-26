@@ -1,0 +1,28 @@
+{
+  "Myanmar": {
+    "flag": "🇲🇲",
+    "cities": [
+      { "name": "Yangon", "image": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600", "description": "The vibrant former capital with golden pagodas and colonial charm" },
+      { "name": "Mandalay", "image": "https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=600", "description": "Cultural heartland with ancient bridges and royal heritage" },
+      { "name": "Bagan", "image": "https://images.unsplash.com/photo-1588866309547-dd83c5665e34?w=600", "description": "Ancient city of thousands of temples and pagodas" },
+      { "name": "Inle Lake", "image": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=600", "description": "Serene lake with floating villages and gardens" },
+      { "name": "Ngapali", "image": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?w=600", "description": "Pristine beach paradise on the Bay of Bengal" }
+    ]
+  },
+  "Thailand": {
+    "flag": "🇹🇭",
+    "cities": [
+      { "name": "Bangkok", "image": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=600", "description": "City of temples, street food, and endless energy" },
+      { "name": "Chiang Mai", "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?w=600", "description": "Mountain city with night markets and ancient walls" },
+      { "name": "Phuket", "image": "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?w=600", "description": "Tropical island with stunning beaches and nightlife" }
+    ]
+  },
+  "Japan": {
+    "flag": "🇯🇵",
+    "cities": [
+      { "name": "Tokyo", "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=600", "description": "Futuristic metropolis blending tradition and innovation" },
+      { "name": "Kyoto", "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600", "description": "Ancient capital of shrines, geishas, and cherry blossoms" },
+      { "name": "Osaka", "image": "https://images.unsplash.com/photo-1590559899731-a382839e5549?w=600", "description": "Japan's kitchen - street food capital of the world" }
+    ]
+  }
+}

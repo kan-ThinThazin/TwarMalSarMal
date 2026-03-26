@@ -1,0 +1,179 @@
+[
+  {
+    "id": 1,
+    "name": "Golden Noodle House",
+    "category": "Noodles",
+    "rating": 4.8,
+    "reviews": 342,
+    "priceRange": "$",
+    "budgetLevel": "budget",
+    "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600",
+    "coverImage": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200",
+    "description": "Authentic hand-pulled noodles made fresh daily with traditional recipes passed down through generations.",
+    "address": "123 Bogyoke Road, Yangon",
+    "city": "Yangon",
+    "country": "Myanmar",
+    "lat": 16.8661,
+    "lng": 96.1951,
+    "phone": "+95 9 123 456 789",
+    "openHours": "8:00 AM - 10:00 PM",
+    "tags": ["Noodles", "Local", "Budget Friendly"],
+    "featured": true,
+    "menu": [
+      { "id": 101, "name": "Shan Noodles", "price": 3500, "currency": "MMK", "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=400", "description": "Traditional Shan-style rice noodles with chicken", "popular": true },
+      { "id": 102, "name": "Mohinga", "price": 2500, "currency": "MMK", "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=400", "description": "Myanmar's famous fish soup noodles", "popular": true },
+      { "id": 103, "name": "Nan Gyi Thoke", "price": 3000, "currency": "MMK", "image": "https://images.unsplash.com/photo-1617093727343-374698b1b08d?w=400", "description": "Thick rice noodle salad with chicken curry" },
+      { "id": 104, "name": "Coconut Noodle Soup", "price": 4000, "currency": "MMK", "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=400", "description": "Creamy coconut milk noodle soup" }
+    ],
+    "recommendedFood": [
+      { "name": "Shan Noodles", "reason": "Best seller - must try!" },
+      { "name": "Mohinga", "reason": "Authentic traditional taste" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "The Strand Café",
+    "category": "Café",
+    "rating": 4.6,
+    "reviews": 218,
+    "priceRange": "$$$",
+    "budgetLevel": "luxury",
+    "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600",
+    "coverImage": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=1200",
+    "description": "Elegant café inside the historic Strand Hotel offering international cuisine with a Myanmar twist.",
+    "address": "92 Strand Road, Yangon",
+    "city": "Yangon",
+    "country": "Myanmar",
+    "lat": 16.8680,
+    "lng": 96.1725,
+    "phone": "+95 9 234 567 890",
+    "openHours": "7:00 AM - 11:00 PM",
+    "tags": ["Café", "International", "Fine Dining"],
+    "featured": true,
+    "menu": [
+      { "id": 201, "name": "Avocado Toast", "price": 8500, "currency": "MMK", "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?w=400", "description": "Sourdough with smashed avocado and poached egg", "popular": true },
+      { "id": 202, "name": "Club Sandwich", "price": 12000, "currency": "MMK", "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=400", "description": "Triple-decker with grilled chicken and bacon" },
+      { "id": 203, "name": "Seafood Pasta", "price": 15000, "currency": "MMK", "image": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=400", "description": "Fresh prawns and squid in tomato cream sauce", "popular": true }
+    ],
+    "recommendedFood": [
+      { "name": "Avocado Toast", "reason": "Instagram-worthy and delicious" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Min Lan Seafood",
+    "category": "Seafood",
+    "rating": 4.7,
+    "reviews": 567,
+    "priceRange": "$$",
+    "budgetLevel": "mid",
+    "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=600",
+    "coverImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200",
+    "description": "Fresh seafood restaurant known for its grilled river prawns and traditional Myanmar seafood dishes.",
+    "address": "45 Inya Road, Yangon",
+    "city": "Yangon",
+    "country": "Myanmar",
+    "lat": 16.8409,
+    "lng": 96.1535,
+    "phone": "+95 9 345 678 901",
+    "openHours": "11:00 AM - 10:00 PM",
+    "tags": ["Seafood", "Local", "Family"],
+    "featured": false,
+    "menu": [
+      { "id": 301, "name": "Grilled River Prawns", "price": 18000, "currency": "MMK", "image": "https://images.unsplash.com/photo-1625943553852-781c6dd46faa?w=400", "description": "Jumbo river prawns grilled with garlic butter", "popular": true },
+      { "id": 302, "name": "Fish Curry", "price": 8000, "currency": "MMK", "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400", "description": "Traditional Myanmar fish curry with herbs" },
+      { "id": 303, "name": "Crab Fried Rice", "price": 10000, "currency": "MMK", "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400", "description": "Wok-fried rice with fresh crab meat", "popular": true }
+    ],
+    "recommendedFood": [
+      { "name": "Grilled River Prawns", "reason": "Signature dish, absolutely fresh!" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Mandalay Tea House",
+    "category": "Tea House",
+    "rating": 4.5,
+    "reviews": 189,
+    "priceRange": "$",
+    "budgetLevel": "budget",
+    "image": "https://images.unsplash.com/photo-1544148103-0773bf10d330?w=600",
+    "coverImage": "https://images.unsplash.com/photo-1525610553efeab6b0a8e5e40f9aab0?w=1200",
+    "description": "Traditional Myanmar tea house serving authentic lahpet thoke and a variety of local snacks.",
+    "address": "78 84th Street, Mandalay",
+    "city": "Mandalay",
+    "country": "Myanmar",
+    "lat": 21.9588,
+    "lng": 96.0891,
+    "phone": "+95 9 456 789 012",
+    "openHours": "6:00 AM - 9:00 PM",
+    "tags": ["Tea House", "Traditional", "Snacks"],
+    "featured": true,
+    "menu": [
+      { "id": 401, "name": "Lahpet Thoke", "price": 2000, "currency": "MMK", "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400", "description": "Fermented tea leaf salad - Myanmar's iconic dish", "popular": true },
+      { "id": 402, "name": "Myanmar Milk Tea", "price": 800, "currency": "MMK", "image": "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=400", "description": "Strong black tea with condensed milk" },
+      { "id": 403, "name": "Samosa", "price": 500, "currency": "MMK", "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400", "description": "Crispy fried pastry with spiced potato filling", "popular": true }
+    ],
+    "recommendedFood": [
+      { "name": "Lahpet Thoke", "reason": "National dish - must experience!" },
+      { "name": "Myanmar Milk Tea", "reason": "Perfect with samosa" }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Bagan BBQ Garden",
+    "category": "BBQ",
+    "rating": 4.4,
+    "reviews": 156,
+    "priceRange": "$$",
+    "budgetLevel": "mid",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600",
+    "coverImage": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200",
+    "description": "Open-air BBQ restaurant with stunning views of ancient pagodas, serving grilled meats and local dishes.",
+    "address": "Near Ananda Temple, Bagan",
+    "city": "Bagan",
+    "country": "Myanmar",
+    "lat": 21.1717,
+    "lng": 94.8585,
+    "phone": "+95 9 567 890 123",
+    "openHours": "4:00 PM - 11:00 PM",
+    "tags": ["BBQ", "Outdoor", "Scenic"],
+    "featured": false,
+    "menu": [
+      { "id": 501, "name": "Mixed Grill Platter", "price": 15000, "currency": "MMK", "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400", "description": "Selection of grilled meats with dipping sauces", "popular": true },
+      { "id": 502, "name": "Grilled Corn", "price": 2000, "currency": "MMK", "image": "https://images.unsplash.com/photo-1551462147-ff29053bfc14?w=400", "description": "Sweet corn grilled with butter and chili" },
+      { "id": 503, "name": "BBQ Chicken Wings", "price": 6000, "currency": "MMK", "image": "https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=400", "description": "Smoky grilled wings with special sauce", "popular": true }
+    ],
+    "recommendedFood": [
+      { "name": "Mixed Grill Platter", "reason": "Best enjoyed at sunset with pagoda views" }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Inle Floating Garden",
+    "category": "Vegetarian",
+    "rating": 4.9,
+    "reviews": 423,
+    "priceRange": "$$",
+    "budgetLevel": "mid",
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600",
+    "coverImage": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=1200",
+    "description": "Floating restaurant on Inle Lake serving fresh organic vegetables grown in their own floating gardens.",
+    "address": "Inle Lake, Shan State",
+    "city": "Inle Lake",
+    "country": "Myanmar",
+    "lat": 20.5833,
+    "lng": 96.9167,
+    "phone": "+95 9 678 901 234",
+    "openHours": "9:00 AM - 8:00 PM",
+    "tags": ["Vegetarian", "Organic", "Lake View"],
+    "featured": true,
+    "menu": [
+      { "id": 601, "name": "Tofu Salad", "price": 4000, "currency": "MMK", "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400", "description": "Shan-style tofu with fresh herbs and sesame", "popular": true },
+      { "id": 602, "name": "Vegetable Curry", "price": 5000, "currency": "MMK", "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=400", "description": "Mixed garden vegetables in coconut curry" },
+      { "id": 603, "name": "Avocado Smoothie", "price": 3000, "currency": "MMK", "image": "https://images.unsplash.com/photo-1638176066666-ffb2f013c7dd?w=400", "description": "Fresh avocado blended with honey and lime", "popular": true }
+    ],
+    "recommendedFood": [
+      { "name": "Tofu Salad", "reason": "Made with Shan tofu - unique taste!" }
+    ]
+  }
+]
