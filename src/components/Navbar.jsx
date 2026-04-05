@@ -39,7 +39,7 @@ export default function Navbar() {
           {/* Increased Navbar height to h-20 lg:h-24 to accommodate the larger logo */}
           <div className="flex items-center justify-between h-20 lg:h-24">
             
-            {/* --- BIGGER LOGO SECTION --- */}
+         
             <Link to="/" className="flex items-center gap-3 group">
               <motion.div
                 whileHover={{ scale: 1.1, rotate: 5 }}
@@ -47,7 +47,7 @@ export default function Navbar() {
                 // Increased size from w-10 to w-16 (64px)
                 className="w-16 h-16 flex items-center justify-center overflow-hidden"
               >
-                {/* Ensure TMAM-t.png is inside your 'public' folder */}
+             
                 <img 
                   src="/TMSM-t.png" 
                   alt="SarMal Logo" 
@@ -62,7 +62,7 @@ export default function Navbar() {
                 <span className="text-2xl font-bold font-display leading-tight">
                   <span className="gradient-text">SarMal</span>
                   <span className="text-foreground">&</span>
-                  <span className="text-accent">TwarMal</span>
+                  <span className="text-accent">TwrMal</span>
                 </span>
                 <span className="text-[10px] text-muted-foreground uppercase tracking-[0.2em] font-medium">
                   Your Need,Our Lead
@@ -97,7 +97,7 @@ export default function Navbar() {
               })}
             </div>
 
-            {/* --- MOBILE TOGGLE --- */}
+            {/* --- MOBILE  --- */}
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
               className="md:hidden p-2 rounded-lg hover:bg-muted transition-colors"
@@ -109,7 +109,7 @@ export default function Navbar() {
         </div>
       </motion.nav>
 
-      {/* --- MOBILE MENU --- */}
+   
       <AnimatePresence>
         {mobileOpen && (
           <motion.div

@@ -33,11 +33,11 @@ export default function Home() {
             alt="Scenic view of Myanmar landscape"
             className="w-full h-full object-cover"
           />
-          {/* Gradient overlay for text readability */}
+       
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-background" />
         </div>
 
-        {/* Floating Particles Animation */}
+       
         {[...Array(6)].map((_, i) => (
           <motion.div
             key={`particle-${i}`}
@@ -80,7 +80,7 @@ export default function Home() {
           >
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">SarMal</span>
             <span className="text-white/90"> & </span>
-            <span className="text-blue-400">TwarMal</span>
+            <span className="text-blue-400">TwrMal</span>
           </motion.h1>
 
           <motion.p

@@ -1,24 +1,22 @@
 import { Link } from 'react-router-dom';
-import * as Icons from 'lucide-react'; // Import as a namespace to prevent export errors
+import * as Icons from 'lucide-react'; 
 
 export default function Footer() {
   // Safe Icon Picker helper
   const Icon = ({ name, ...props }) => {
     const LucideIcon = Icons[name];
-    if (!LucideIcon) return null; // Returns nothing if icon name is wrong
+    if (!LucideIcon) return null; 
     return <LucideIcon {...props} />;
   };
 
   return (
     <footer className="relative border-t border-slate-200 bg-white overflow-hidden">
-      {/* 2px Decorative Top Line */}
+     
       <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-blue-500 to-transparent" />
       
       <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
-          
-          {/* Brand Section */}
-          <div className="md:col-span-4 space-y-6">
+            <div className="md:col-span-4 space-y-6">
             <Link to="/" className="flex items-center gap-4 group">
             
                 <img 
@@ -32,7 +30,7 @@ export default function Footer() {
                 <h2 className="text-2xl font-bold text-slate-900 leading-none">
                   <span className="gradient-text">SarMal</span>
                   <span className="text-foreground">&</span>
-                  <span className="text-accent">TwarMal</span>
+                  <span className="text-accent">TwrMal</span>
                 </h2>
                 <span className="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Your Need,Our Lead</span>
               </div>
@@ -42,7 +40,6 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Links Section */}
           <div className="md:col-span-2">
             <h4 className="text-xs font-bold uppercase text-slate-900 mb-6">Explore</h4>
             <nav className="flex flex-col gap-4">
@@ -86,7 +83,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="mt-16 pt-8 border-t border-slate-100 flex justify-between items-center text-xs text-slate-500">
-          <p>© 2026 SarMal & TwarMal</p>
+          <p>© 2026 SarMal & TwrMal</p>
           <div className="flex items-center gap-1">
             Made with <Icon name="Heart" className="w-3 h-3 text-red-500 fill-red-500" /> in Myanmar
           </div>
